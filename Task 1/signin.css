@@ -1,0 +1,125 @@
+.signin {
+    width: 1440px;
+    height: 817px;
+    background: linear-gradient(to right, #E6F3FC, #FFFFFF);
+}
+
+.signin-hero-img {
+    width: 566px;
+    height: 625px;
+    position: absolute;
+    top: 96px;
+    left: 65px;
+}
+
+.signin-title {
+    width: 385px;
+    height: 106px;
+    position: absolute;
+    top: 96px;
+    left: 843px;
+    color: #324D90;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.signin-box {
+    width: 411.85px;
+    height: 407px;
+    position: absolute;
+    top: 234px;
+    left: 830px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #4391F1, #C8E4FF);
+}
+
+.signin-box-title {
+    width: 183.97px;
+    height: 29.81px;
+    position: absolute;
+    top: 46.85px;
+    left: 113.06px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.signin-box-content-1 {
+    width: 183.97px;
+    height: 20.56px;
+    position: absolute;
+    left: 44.19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+
+.line {
+    width: 322.41px;
+    height: 1.39px;
+    position: absolute;
+    left: 44.37px;
+    background-color: #fff;
+}
+
+#email {
+    top: 119.22px;
+}
+
+#username {
+    top: 172.67px;
+}
+
+#password {
+    top: 227.14px;
+}
+
+#line-1 {
+    top: 144.91px;
+}
+
+#line-2 {
+    top: 198.3px;
+}
+
+#line-3 {
+    top: 253.07px;
+}
+
+.signin-button {
+    width: 338.14px;
+    height: 38.03px;
+    position: absolute;
+    top: 308.22px;
+    left: 35.97px;
+    border-radius: 15px;
+    gap: 10px;
+    background: linear-gradient(to right, #3462E7, #093FC8);
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+@keyframes dissolve {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.signin-button.dissolve {
+    animation: dissolve 300ms ease-out forwards;
+}

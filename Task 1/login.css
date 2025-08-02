@@ -1,0 +1,144 @@
+.login {
+    width: 1440px;
+    height: 817px;
+    background: linear-gradient(to right, #D0E5FA, #FFFFFF);
+}
+
+.login-hero-image {
+    width: 887px;
+    height: 589px;
+    position: absolute;
+    top: 114px;
+    left: -37px;
+}
+
+.login-title {
+    width: 385px;
+    height: 106px;
+    position: absolute;
+    top: 86px;
+    left: 883px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #324D90;
+}
+
+.login-box {
+    width: 412px;
+    height: 373px;
+    position: absolute;
+    top: 236px;
+    left: 870px;
+    background: linear-gradient(to left, #C8E4FF, #4391F1);
+}
+
+.login-box-title {
+    width: 183.97px;
+    height: 29.81px;
+    position: absolute;
+    top: 34px;
+    left: 114px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.login-box-line {
+    width: 183.97px;
+    height: 20.56px;
+    position: absolute;
+    left: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.line {
+    width: 322.41px;
+    height: 1.39px;
+    background-color: #fff;
+    position: absolute;
+    left: 45px;
+}
+
+#username {
+    top: 106px;
+}
+
+#password {
+    top: 172px;
+}
+
+#line-1 {
+    top: 133px;
+}
+
+#line-2 {
+    top: 199px;
+}
+
+.forgot-password {
+    width: 124px;
+    height: 23px;
+    position: absolute;
+    top: 207px;
+    left: 255px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.login-btn {
+    width: 331px;
+    height: 36px;
+    position: absolute;
+    top: 263px;
+    left: 41px;
+    border-radius: 15px;
+    gap: 10px;
+    background: linear-gradient(to right, #3462E7, #093FC8);
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+@keyframes dissolve {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.login-btn.dissolve {
+    animation: dissolve 300ms ease-out forwards;
+}
+
+.sign-in-opt {
+    width: 203px;
+    height: 23px;
+    position: absolute;
+    top: 311px;
+    left: 103px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  max-width: 450px;
+  width: 100%;
+}
+
+.user-input {
+  width: 60%;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.popup {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.count {
+  font-size: 20px;
+}
+
+.guesses {
+  margin-top: 10px;
+}
+
+.btn-glow {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
