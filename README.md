@@ -4,3 +4,4 @@ This is a GitHub repository for the tasks that were provided for the front-end i
 <br>
 <b>Task 2:</b> Random number guessing game
 <br>
+<b>Task 3:</b> News app
