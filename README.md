@@ -5,3 +5,5 @@ This is a GitHub repository for the tasks that were provided for the front-end i
 <b>Task 2:</b> Random number guessing game
 <br>
 <b>Task 3:</b> News app
+<br>
+<b>Task 4:</b> BMI Calculator
